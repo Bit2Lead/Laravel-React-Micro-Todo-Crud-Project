@@ -30,7 +30,8 @@ class Show extends React.Component{
 		if (this.state.loading) {
 				return <li>Loading</li>
 			}
-		return (	
+		return (
+		<div className="container">	
 			<table className="table">
 			  <thead>
 			    <tr>
@@ -52,6 +53,7 @@ class Show extends React.Component{
 			  ))}
 			  </tbody>
 			</table>
+		</div>
 		);
 	}
 }

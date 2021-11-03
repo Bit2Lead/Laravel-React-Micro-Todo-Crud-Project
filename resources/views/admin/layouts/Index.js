@@ -15,7 +15,7 @@ class Index extends React.Component {
                 <>
                 <Header />
                 <div className="text-center">
-                    <h4> Micro CRUD project.</h4><hr/>
+                    <h4> Micro CRUD Operation.</h4><hr/>
                 </div>
                 <Switch>
                     <Route exact path="/insert" component={Insert} />
